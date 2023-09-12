@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Temperature Converter</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo+Narrow:ital@0;1&family=Fjalla+One&family=Playfair+Display:ital,wght@1,900&family=Signika:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <img src="./images/TC_Logo.png" alt="Temperature Converter Logo">
+
+  <div class="boxes">
+    <label>Celsius:</label>
+    <input type="number" id="celsius">
+    <button onclick="convertTo('fahrenheit')">Convert to Fahrenheit 🌡️</button>
+  </div>
+
+    <br>
+
+  <div class="boxes">    
+      <label>Fahrenheit:</label>
+      <input type="number" id="fahrenheit">
+      <button onclick="convertTo('celsius')">Convert to Celsius 🌡️</button>
+  </div>
+
+  <img src="./images/Logo MM.png" alt="MM Logo">
+<script src="main.js"></script>
+</body>
+</html>
