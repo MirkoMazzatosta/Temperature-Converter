@@ -9,3 +9,9 @@ function convertTo(unit) {
         document.getElementById('celsius').value = celsius.toFixed(2);
     }
 }
+
+
+function resetFields() {
+    document.getElementById("celsius").value = "";
+    document.getElementById("fahrenheit").value = "";
+  }
